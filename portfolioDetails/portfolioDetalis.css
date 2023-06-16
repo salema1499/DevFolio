@@ -1,0 +1,110 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244,245,244);
+}
+
+.home{
+   position: relative;
+    height: 50vh;
+    width: 100%;
+    max-width: 100%;
+    color: red;
+    
+    background:url('https://alfaroukroute.github.io/Devfolio/assets/img/overlay-bg.jpg') no-repeat center
+}
+
+.home .navbar .navbar-brand{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+.home .navbar li .nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+     position: relative;
+
+}
+.home .navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+.home .textme{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.home .overlay{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(74, 74, 240, 0.9);
+}
+
+.fs-22{
+    font-size: 22px;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fs-15{
+    font-size: 15px;
+    color:rgb(104,108,111) ;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.footer .iconarrow{
+    direction: rtl;
+    float: right;
+    border-radius: 50%;
+     border: 1px solid white;
+     width: 50px;
+
+   
+
+}
+
+.footer .iconarrow a .arrow{
+   
+    color: white;
+    font-size: 20px;
+}
+.carousel-indicators{
+    position: relative;
+    margin-top: 20px;
+    bottom: 10px;
+    top: 20px;
+    width: 100%;
+    margin: auto;
+}
+.carousel-indicators .active{
+    
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid  rgb(1,121,255);
+}
+.carousel-indicators .active:hover{
+    background-color: rgb(1,121,255);
+}

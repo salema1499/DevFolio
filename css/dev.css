@@ -1,0 +1,262 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244,245,244);
+}
+
+.home{
+   position: relative;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: blue;
+    background:url('https://alfaroukroute.github.io/Devfolio/assets/img/hero-bg.jpg') no-repeat center
+}
+
+.home .navbar .navbar-brand{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+.home .navbar li .nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+     position: relative;
+
+}
+.home .navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+.home .textme{
+    font-size: 72px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.home .overlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* about */
+.about{
+    background-color: rgb(254,255,254);
+}
+.about p{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-weight: 600;
+}
+
+.about span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+ 
+}
+
+.about .p-20{
+    font-style: 20px;
+    font-weight: 300;
+}
+.about .hr {
+    width: 15%;
+    height: 2px;
+
+}
+
+.about .f-32{
+    font-size: 32px;
+    font-weight: 500;
+}
+/* services */
+
+.services{
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.services .icon{
+    border: 10px solid rgb(1,121,255);
+    margin-top:30px;
+    padding: 15px 20px 15px 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-weight: 400;
+}
+.services .icon:hover{
+    background-color: rgb(1,121,255);
+    border:10px solid rgb(148, 190, 238);
+    color: black;
+   
+}
+
+.services .icon .one{
+   color: rgb(86, 95, 176);
+
+}
+.services .icon .one:hover{
+    color: black;
+}
+.card{
+    --bs-card-border-width:0
+}
+
+.services .hrr{
+     margin: auto;
+     width: 5%;
+     height: 7px;
+}
+.services .servh1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.services .card-text{
+    color: rgb(120,139,168);
+}
+
+.services h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* counter */
+.counter{
+    background-image: url('	https://alfaroukroute.github.io/Devfolio/assets/img/counters-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+   
+        
+      
+}
+
+.counter .layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(81, 81, 241, 0.5);
+    height: 100%;
+    width: 100%;
+}
+.counter .card2{
+    background-color: transparent;
+    color: white;
+
+}
+
+.plus{
+    margin: auto ;
+    width: 10%;
+    margin-right: 25px;
+
+  
+}
+.plus .iconplus{
+    padding: 3px;
+    margin: 3px;
+}
+.blog{
+    height: 60vh;
+  
+    background:url('https://alfaroukroute.github.io/Devfolio/assets/img/overlay-bg.jpg') no-repeat fixed
+
+}
+
+.blog .imgcar{
+    
+    margin: auto;
+    padding: 60px;
+}
+.blog .carousel-indicator{
+    position: absolute;
+    top: 8px;
+}
+
+.blog .carousel-caption{
+  position: absolute;
+  bottom:  -1.80rem;
+}
+.blog .carousel-indicators{
+    position: absolute;
+    top: 260px;
+}
+
+.services .imgman{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* contact */
+.contact{
+   height: 100%;
+    background:url('https://alfaroukroute.github.io/Devfolio/assets/img/overlay-bg.jpg') no-repeat center fixed
+     
+}
+.contact .hrr3{
+    
+    width: 10%;
+    height: 7px;
+    background-color: rgb(1,121,255); ;
+}
+
+.contact .btn{
+    position: relative;
+    left: 215px;
+
+}
+.contact .iconcontact:hover{
+ 
+
+   background-color:  rgb(1,121,255); ;
+   border: 1px solid white;
+}
+.contact .iconcontact:hover .brand{
+    color: aliceblue;
+ 
+}
+
+/* footer */
+
+.footer .iconarrow{
+    direction: rtl;
+    float: right;
+    border-radius: 50%;
+     border: 1px solid white;
+     width: 50px;
+
+   
+
+}
+
+.footer .iconarrow a .arrow{
+   
+    color: white;
+    font-size: 20px;
+}
