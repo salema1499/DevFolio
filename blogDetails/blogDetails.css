@@ -11,12 +11,29 @@ body{
 
 .home{
    position: relative;
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     max-width: 100%;
-    color: red;
+ 
     
-    background:url('https://alfaroukroute.github.io/Devfolio/assets/img/overlay-bg.jpg') no-repeat center
+    background:url("../imgs/overlay-bg.jpg") no-repeat center
+}
+.home .navbar{
+    position: relative;
+    z-index: 2;
+}
+.home::before{
+    position:absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%; 
+    background-color: rgba(111, 111, 241, 0.5);
+}
+
+.home .fixed-top{
+    background-color:  rgba(111, 111, 241, 0.2);
 }
 
 .home .navbar .navbar-brand{
@@ -41,10 +58,11 @@ body{
 .home .textme{
     font-size: 72px;
     font-weight: 600;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
-    color: white;
+   color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
 }
 
 .home .overlay{
